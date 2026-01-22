@@ -6,6 +6,7 @@ import NavLinks from '../molecules/NavLinks';
 
 const Navbar = ({ scrolled, activeSection, onNavigate, onOpenBooking, onOpenMenu }) => {
   const navLinks = [
+    { title: "HOME", href: "#home" },
     { title: "SERVICES", href: "#services" },
     { title: "PRICELIST", href: "#pricelist" },
     { title: "MEMBERSHIP", href: "#membership" },
@@ -23,8 +24,8 @@ const Navbar = ({ scrolled, activeSection, onNavigate, onOpenBooking, onOpenMenu
         pointer-events-auto
         flex items-center justify-between
         px-2 py-2 md:px-6 md:py-3
-        bg-neutral-900/80 backdrop-blur-md
-        border border-neutral-700/50
+        bg-neutral-400/80 backdrop-blur-md
+        border border-neutral-200/50
         rounded-full shadow-2xl shadow-black/20
         transition-all duration-500
         ${scrolled ? "w-[95%] md:w-[60%]" : "w-[95%] md:w-[80%]"}

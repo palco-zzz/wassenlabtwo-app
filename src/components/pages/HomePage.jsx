@@ -73,6 +73,7 @@ const HomePage = () => {
     };
 
     const navLinks = [
+        { title: "HOME", href: "#home" },
         { title: "SERVICES", href: "#services" },
         { title: "PRICELIST", href: "#pricelist" },
         { title: "MEMBERSHIP", href: "#membership" },
